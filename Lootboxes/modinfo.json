@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "loot_boxes",
+    "name": "<color_i_yellow>Loot boxes</color>",
+    "authors": [ "Bopezera" ],
+    "maintainers": [ "Bopezera" ],
+    "description": "For those who enjoy a bit of high-stakes gambling with their cash. Using any mobile device and a cash card, you can manifest mysterious lootboxes. Simply place the box and break it open to claim your prize. Be careful not to get addicted.",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]
