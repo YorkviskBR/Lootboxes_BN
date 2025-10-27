@@ -1,0 +1,173 @@
+[
+  {
+    "type": "recipe",
+    "result": "ammunition_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 400000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "batteries_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 300000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bionics_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 800000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "drinks_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 200000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "explosives_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 600000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "food_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 200000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "guns_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 800000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "meds_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 400000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "serums_lootbox",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_LOOTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 600000 ]
+      ]
+    ]
+  }
+]

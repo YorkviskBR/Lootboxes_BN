@@ -1,0 +1,87 @@
+[
+  {
+    "id": "lootbox",
+    "type": "MONSTER",
+    "name": { "str": "lootbox" },
+    "description": "",
+    "default_faction": "",
+    "species": [ "DEBUG" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 1,
+    "speed": 100,
+    "material": [ "steel" ],
+    "symbol": "L",
+    "color": "yellow",
+    "aggression": -99,
+    "morale": 100,
+    "melee_cut": 0,
+    "vision_day": 1,
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "flags": [ "IMMOBILE", "NOT_HALLUCINATION" ]
+  },
+  {
+    "id": "mon_ammunition_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "ammunition_lootbox",
+    "death_drops": "ammunition_lootbox"
+  },
+  {
+    "id": "mon_batteries_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "batteries_lootbox",
+    "death_drops": "batteries_lootbox"
+  },
+  {
+    "id": "mon_bionics_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "bionics_lootbox",
+    "death_drops": "bionics_lootbox"
+  },
+  {
+    "id": "mon_drinks_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "drinks_lootbox",
+    "death_drops": "drinks_lootbox"
+  },
+  {
+    "id": "mon_explosives_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "explosives_lootbox",
+    "death_drops": "explosives_lootbox"
+  },
+  {
+    "id": "mon_food_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "food_lootbox",
+    "death_drops": "food_lootbox"
+  },
+  {
+    "id": "mon_guns_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "guns_lootbox",
+    "death_drops": "guns_lootbox"
+  },
+  {
+    "id": "mon_meds_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "meds_lootbox",
+    "death_drops": "meds_lootbox"
+  },
+  {
+    "id": "mon_serums_lootbox",
+    "type": "MONSTER",
+    "copy-from": "lootbox",
+    "looks_like": "serums_lootbox",
+    "death_drops": "serums_lootbox"
+  }
+]
