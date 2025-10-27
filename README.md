@@ -26,7 +26,7 @@ There are nine types of lootboxes, each with a specific theme, cost, and loot ta
 
 ### Bionics Lootbox
 *   **Cost:** $8,000
-*   **Contents:** CBMs (Consumer Bionic Modules).
+*   **Contents:** CBMs
 *   **Loot Logic:** You are guaranteed to receive one random CBM from the standard set. You have a 20% chance of receiving a second standard CBM, and a 10% chance of receiving a rare/powerful CBM from the `bionics_op` group.
 *   **Loot Set:** Sourced from the basic (`vanilla`) item groups `bionics` and `bionics_op`.
 
