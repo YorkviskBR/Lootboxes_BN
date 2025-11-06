@@ -6,27 +6,18 @@
       {
         "file": "mod_tileset/lootbox.png",
         "tiles": [
-          { "id": "ammunition_lootbox", "fg": 0 },
-          { "id": "overlay_wielded_ammunition_lootbox", "fg": 0 },
-          { "id": "guns_lootbox", "fg": 4 },
-          { "id": "overlay_wielded_guns_lootbox", "fg": 4 },
-          { "id": "explosives_lootbox", "fg": 1 },
-          { "id": "overlay_wielded_explosives_lootbox", "fg": 1 },
-          { "id": "food_lootbox", "fg": 6 },
-          { "id": "overlay_wielded_food_lootbox", "fg": 6 },
-          { "id": "meds_lootbox", "fg": 2 },
-          { "id": "overlay_wielded_meds_lootbox", "fg": 2 },
-          { "id": "drinks_lootbox", "fg": 3 },
-          { "id": "overlay_wielded_drinks_lootbox", "fg": 3 },
-          { "id": "serums_lootbox", "fg": 5 },
-          { "id": "overlay_wielded_serums_lootbox", "fg": 5 },
-          { "id": "batteries_lootbox", "fg": 8 },
-          { "id": "overlay_wielded_batteries_lootbox", "fg": 8 },
-          { "id": "bionics_lootbox", "fg": 7 },
-          { "id": "overlay_wielded_bionics_lootbox", "fg": 7 }
-        ],
-        "sprite_width": 30,
-        "sprite_height": 23
+          {
+            "id": [ "ammunition_gift_box", "overlay_wielding_ammunition_gift_box" ],
+            "fg": [
+              { "weight": 1, "sprite": 1 },
+              { "weight": 1, "sprite": 2 },
+              { "weight": 1, "sprite": 3 },
+              { "weight": 1, "sprite": 4 }
+            ],
+            "animated": true,
+            "rotates": false
+          }
+        ]
       }
     ]
   }

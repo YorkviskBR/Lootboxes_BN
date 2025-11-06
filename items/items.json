@@ -1,88 +1,95 @@
 [
   {
-    "id": "lootbox",
+    "id": "gift_box",
     "type": "TOOL",
     "category": "valuables",
-    "name": { "str": "lootbox", "str_pl": "lootboxes" },
-    "description": "If you can see this, it's probably a bug.",
+    "name": { "str": "gift box", "str_pl": "gift boxes" },
+    "description": "A brightly wrapped gift box, manifested through a hefty financial transaction. What could be inside?",
     "weight": "10 g",
     "volume": "1 ml",
     "price": "1 USD",
     "price_postapoc": "1 USD",
     "material": [ "plastic" ],
     "symbol": "L",
-    "color": "yellow"
+    "color": "green"
   },
   {
-    "id": "ammunition_lootbox",
+    "id": "ammunition_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "ammunition lootbox", "str_pl": "ammunition lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. It's heavy and rattles with the distinct sound of various types of ammunition.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_ammunition_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "name": { "str": "ammunition gift box", "str_pl": "ammunition gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_ammunition_gift_box", "moves": 1 }
   },
   {
-    "id": "batteries_lootbox",
+    "id": "batteries_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "batteries lootbox", "str_pl": "batteries lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. A low hum emanates from it, promising a trove of batteries and power cells.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_batteries_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "batteries gift box", "str_pl": "batteries gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_batteries_gift_box", "moves": 1 }
   },
   {
-    "id": "bionics_lootbox",
+    "id": "bionics_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "bionics lootbox", "str_pl": "bionics lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. It feels cool to the touch and is surprisingly dense, suggesting advanced cybernetic contents.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_bionics_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "bionics gift box", "str_pl": "bionics gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_bionics_gift_box", "moves": 1 }
   },
   {
-    "id": "drinks_lootbox",
+    "id": "drinks_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "drinks lootbox", "str_pl": "drinks lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. You can hear liquid sloshing around inside, a welcome sound for any thirsty survivor.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_drinks_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "drinks gift box", "str_pl": "drinks gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_drinks_gift_box", "moves": 1 }
   },
   {
-    "id": "explosives_lootbox",
+    "id": "explosives_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "explosives lootbox", "str_pl": "explosives lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. It has a faint smell of chemicals and should probably be handled with extreme care.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_explosives_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "explosives gift box", "str_pl": "explosives gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_explosives_gift_box", "moves": 1 }
   },
   {
-    "id": "food_lootbox",
+    "id": "food_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "food lootbox", "str_pl": "food lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. The faint aroma of preserved food wafts from its seams, offering a convenient, if unpredictable, meal.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_food_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "food gift box", "str_pl": "food gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_food_gift_box", "moves": 1 }
   },
   {
-    "id": "guns_lootbox",
+    "id": "guns_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "guns lootbox", "str_pl": "guns lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. Heavy and solid, it almost certainly contains some form of firearm.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_guns_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "guns gift box", "str_pl": "guns gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_guns_gift_box", "moves": 1 }
   },
   {
-    "id": "meds_lootbox",
+    "id": "meds_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "meds lootbox", "str_pl": "meds lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. It has a sterile, antiseptic smell, hinting at the medical supplies within.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_meds_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "meds gift box", "str_pl": "meds gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_meds_gift_box", "moves": 1 }
   },
   {
-    "id": "serums_lootbox",
+    "id": "serums_gift_box",
     "type": "TOOL",
-    "copy-from": "lootbox",
-    "name": { "str": "serums lootbox", "str_pl": "serums lootboxes" },
-    "description": "A mysterious box manifested through a hefty financial transaction. A faint biohazard symbol is stenciled on the side, indicating a cargo of potent serums.",
-    "use_action": { "type": "place_monster", "monster_id": "mon_serums_lootbox", "moves": 1 }
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "serums gift box", "str_pl": "serums gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_serums_gift_box", "moves": 1 }
+  },
+  {
+    "id": "weapons_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "weapons gift box", "str_pl": "weapons gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_weapons_gift_box", "moves": 1 }
   }
 ]

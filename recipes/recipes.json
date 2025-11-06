@@ -1,9 +1,9 @@
 [
   {
     "type": "recipe",
-    "result": "ammunition_lootbox",
+    "result": "ammunition_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -14,15 +14,72 @@
         [ "wrist_comp_budget", 5 ]
       ],
       [
-        [ "cash_card", 400000 ]
+        [ "cash_card", 200000 ]
       ]
     ]
   },
   {
     "type": "recipe",
-    "result": "batteries_lootbox",
+    "result": "batteries_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 150000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bionics_gift_box",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_GIFTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 800000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "drinks_gift_box",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_GIFTBOX",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [ "smart_phone", 5 ],
+        [ "laptop", 5 ],
+        [ "eink_tablet_pc", 5 ],
+        [ "wrist_comp_budget", 5 ]
+      ],
+      [
+        [ "cash_card", 100000 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "explosives_gift_box",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -39,9 +96,9 @@
   },
   {
     "type": "recipe",
-    "result": "bionics_lootbox",
+    "result": "food_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -52,15 +109,15 @@
         [ "wrist_comp_budget", 5 ]
       ],
       [
-        [ "cash_card", 800000 ]
+        [ "cash_card", 100000 ]
       ]
     ]
   },
   {
     "type": "recipe",
-    "result": "drinks_lootbox",
+    "result": "guns_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -71,34 +128,15 @@
         [ "wrist_comp_budget", 5 ]
       ],
       [
-        [ "cash_card", 200000 ]
+        [ "cash_card", 500000 ]
       ]
     ]
   },
   {
     "type": "recipe",
-    "result": "explosives_lootbox",
+    "result": "meds_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
-    "time": "1 m",
-    "autolearn": true,
-    "tools": [
-      [
-        [ "smart_phone", 5 ],
-        [ "laptop", 5 ],
-        [ "eink_tablet_pc", 5 ],
-        [ "wrist_comp_budget", 5 ]
-      ],
-      [
-        [ "cash_card", 600000 ]
-      ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "food_lootbox",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -115,9 +153,9 @@
   },
   {
     "type": "recipe",
-    "result": "guns_lootbox",
+    "result": "serums_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -128,15 +166,15 @@
         [ "wrist_comp_budget", 5 ]
       ],
       [
-        [ "cash_card", 800000 ]
+        [ "cash_card", 500000 ]
       ]
     ]
   },
   {
     "type": "recipe",
-    "result": "meds_lootbox",
+    "result": "weapons_gift_box",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
+    "subcategory": "CSC_OTHER_GIFTBOX",
     "time": "1 m",
     "autolearn": true,
     "tools": [
@@ -148,25 +186,6 @@
       ],
       [
         [ "cash_card", 400000 ]
-      ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "serums_lootbox",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_LOOTBOX",
-    "time": "1 m",
-    "autolearn": true,
-    "tools": [
-      [
-        [ "smart_phone", 5 ],
-        [ "laptop", 5 ],
-        [ "eink_tablet_pc", 5 ],
-        [ "wrist_comp_budget", 5 ]
-      ],
-      [
-        [ "cash_card", 600000 ]
       ]
     ]
   }

@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "loot_boxes",
-    "name": "<color_i_yellow>Loot boxes</color>",
+    "id": "gift_boxes",
+    "name": "<color_white_cyan>Gift Boxes</color>",
     "authors": [ "Bopezera" ],
     "maintainers": [ "Bopezera" ],
-    "description": "For those who enjoy a bit of high-stakes gambling with their cash. Using any mobile device and a cash card, you can manifest mysterious lootboxes. Simply place the box and break it open to claim your prize. Be careful not to get addicted.",
+    "description": "Get into the holiday spirit! Using any mobile device and a cash card, you can manifest mysterious gift boxes. Simply place the box and break it open to claim your prize. Happy Holidays!",
     "category": "misc_additions",
     "dependencies": [ "bn" ]
   }
