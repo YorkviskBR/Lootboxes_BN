@@ -34,7 +34,7 @@ There are ten types of gift boxes, each with a specific theme, cost, and loot ta
   <summary><strong>Bionics Gift Box</strong></summary>
   
 *   **Cost:** $8,000
-*   **Contents:** A selection of Cybernetic Body Modifications (CBMs).
+*   **Contents:** A selection of CBMs.
 *   **Loot Logic:** You are guaranteed to receive one random standard CBM. You then have a 30% chance of receiving a second standard CBM, and a 20% chance of receiving a rare/powerful CBM.
 *   **Loot Set:** Sourced from the `bionics` and `bionics_op` item groups.
 </details>
