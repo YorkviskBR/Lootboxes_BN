@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ammunition_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_ammo", "prob": 100 },
+      { "group": "rng_ammo", "prob": 100 },
+      { "group": "rng_ammo", "prob": 100 }
+    ]
+  },
+  {
+    "id": "batteries_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_batteries", "prob": 100 },
+      { "group": "rng_batteries", "prob": 100 },
+      { "group": "rng_batteries", "prob": 100 }
+    ]
+  },
+  {
+    "id": "bionics_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "bionics", "prob": 100 },
+      { "group": "bionics", "prob": 30 },
+      { "group": "bionics_op", "prob": 20 }
+    ]
+  },
+  {
+    "id": "drinks_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_drinks", "prob": 100 },
+      { "group": "rng_drinks", "prob": 100 },
+      { "group": "rng_drinks", "prob": 100 }
+    ]
+  },
+  {
+    "id": "explosives_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_explosives", "prob": 100 },
+      { "group": "rng_explosives", "prob": 30 },
+      { "group": "rng_explosives", "prob": 30 }
+    ]
+  },
+  {
+    "id": "food_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_food", "prob": 100 },
+      { "group": "rng_food", "prob": 100 },
+      { "group": "rng_food", "prob": 100 }
+    ]
+  },
+  {
+    "id": "guns_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_gun", "prob": 100 },
+      { "group": "rng_gun", "prob": 25 },
+      { "group": "rng_gun", "prob": 25 }
+    ]
+  },
+  {
+    "id": "meds_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_meds", "prob": 100 },
+      { "group": "rng_meds", "prob": 100 },
+      { "group": "rng_meds", "prob": 100 }
+    ]
+  },
+  {
+    "id": "serums_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_serums", "prob": 100 },
+      { "group": "rng_serums", "prob": 30 },
+      { "group": "rng_serums", "prob": 30 }
+    ]
+  },
+  {
+    "id": "weapons_gift_box",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rng_weapons", "prob": 100 },
+      { "group": "rng_weapons", "prob": 25 },
+      { "group": "rng_weapons", "prob": 25 }
+    ]
+  }
+]

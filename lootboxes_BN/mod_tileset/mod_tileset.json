@@ -1,0 +1,24 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockXottoplus" ],
+    "tiles-new": [
+      {
+        "file": "mod_tileset/lootbox.png",
+        "tiles": [
+          {
+            "id": [ "ammunition_gift_box", "overlay_wielding_ammunition_gift_box" ],
+            "fg": [
+              { "weight": 1, "sprite": 1 },
+              { "weight": 1, "sprite": 2 },
+              { "weight": 1, "sprite": 3 },
+              { "weight": 1, "sprite": 4 }
+            ],
+            "animated": true,
+            "rotates": false
+          }
+        ]
+      }
+    ]
+  }
+]

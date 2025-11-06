@@ -1,0 +1,95 @@
+[
+  {
+    "id": "gift_box",
+    "type": "TOOL",
+    "category": "valuables",
+    "name": { "str": "gift box", "str_pl": "gift boxes" },
+    "description": "A brightly wrapped gift box, manifested through a hefty financial transaction. What could be inside?",
+    "weight": "10 g",
+    "volume": "1 ml",
+    "price": "1 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "plastic" ],
+    "symbol": "L",
+    "color": "green"
+  },
+  {
+    "id": "ammunition_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "name": { "str": "ammunition gift box", "str_pl": "ammunition gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_ammunition_gift_box", "moves": 1 }
+  },
+  {
+    "id": "batteries_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "batteries gift box", "str_pl": "batteries gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_batteries_gift_box", "moves": 1 }
+  },
+  {
+    "id": "bionics_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "bionics gift box", "str_pl": "bionics gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_bionics_gift_box", "moves": 1 }
+  },
+  {
+    "id": "drinks_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "drinks gift box", "str_pl": "drinks gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_drinks_gift_box", "moves": 1 }
+  },
+  {
+    "id": "explosives_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "explosives gift box", "str_pl": "explosives gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_explosives_gift_box", "moves": 1 }
+  },
+  {
+    "id": "food_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "food gift box", "str_pl": "food gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_food_gift_box", "moves": 1 }
+  },
+  {
+    "id": "guns_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "guns gift box", "str_pl": "guns gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_guns_gift_box", "moves": 1 }
+  },
+  {
+    "id": "meds_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "meds gift box", "str_pl": "meds gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_meds_gift_box", "moves": 1 }
+  },
+  {
+    "id": "serums_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "serums gift box", "str_pl": "serums gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_serums_gift_box", "moves": 1 }
+  },
+  {
+    "id": "weapons_gift_box",
+    "type": "TOOL",
+    "copy-from": "gift_box",
+    "looks_like": "ammunition_gift_box",
+    "name": { "str": "weapons gift box", "str_pl": "weapons gift boxes" },
+    "use_action": { "type": "place_monster", "monster_id": "mon_weapons_gift_box", "moves": 1 }
+  }
+]

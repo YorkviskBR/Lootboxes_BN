@@ -1,0 +1,104 @@
+[
+  {
+    "id": "gift_box",
+    "type": "MONSTER",
+    "name": { "str": "gift box" },
+    "description": "",
+    "default_faction": "",
+    "species": [ "DEBUG" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 1,
+    "speed": 100,
+    "material": [ "steel" ],
+    "symbol": "L",
+    "color": "green",
+    "aggression": -99,
+    "morale": 100,
+    "melee_cut": 0,
+    "vision_day": 1,
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "flags": [ "IMMOBILE", "NOT_HALLUCINATION" ]
+  },
+  {
+    "id": "mon_ammunition_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "ammunition gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "ammunition_gift_box"
+  },
+  {
+    "id": "mon_batteries_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "batteries gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "batteries_gift_box"
+  },
+  {
+    "id": "mon_bionics_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "bionics gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "bionics_gift_box"
+  },
+  {
+    "id": "mon_drinks_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "drinks gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "drinks_gift_box"
+  },
+  {
+    "id": "mon_explosives_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "explosives gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "explosives_gift_box"
+  },
+  {
+    "id": "mon_food_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "food gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "food_gift_box"
+  },
+  {
+    "id": "mon_guns_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "guns gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "guns_gift_box"
+  },
+  {
+    "id": "mon_meds_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "meds gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "meds_gift_box"
+  },
+  {
+    "id": "mon_serums_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "serums gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "serums_gift_box"
+  },
+  {
+    "id": "mon_weapons_gift_box",
+    "type": "MONSTER",
+    "copy-from": "gift_box",
+    "name": { "str": "weapons gift box" },
+    "looks_like": "ammunition_gift_box",
+    "death_drops": "weapons_gift_box"
+  }
+]
